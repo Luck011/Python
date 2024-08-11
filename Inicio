@@ -6,3 +6,26 @@ nome = "Sheila"
 idade = 32
 
 print("Meu nome é " + nome + " Minha idade é " + str(idade))
+
+----------------------------------------------
+print("Olá mundo")
+print("Brasil")
+print("Lucas " + "Ribeiro")
+
+nome = "Sheila Silva"
+idade = 32
+
+print("Meu nome é " + nome + " Minha idade é " + str(idade)) #str transforma idade em string
+
+print(nome.lower()) #caixa baixa
+
+print(nome.upper()) #caixa Alta
+
+print(len(nome)) #len conta quantidade de strings.
+
+print(nome[2:4])
+
+print(nome.count('l'))
+
+frase = "Eu amo chocolate"
+print(frase.find("amo"))
