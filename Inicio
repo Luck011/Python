@@ -1,0 +1,8 @@
+print("Olá mundo")
+print("Brasil")
+print("Lucas " + "Ribeiro")
+
+nome = "Sheila"
+idade = 32
+
+print("Meu nome é " + nome + " Minha idade é " + str(idade))
