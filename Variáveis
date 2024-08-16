@@ -1,0 +1,38 @@
+\\input captura o dado do usuario que foi digitado
+
+idade = input('Digite sua idade: ')
+print('Sua idade:\n' + idade)
+--------------------------
+\\Arredonda valor
+y = 15.7
+print(round(y))
+-----------------------
+\\Python entende isso como uma string
+
+num1 = input('Digite primeiro numero: ')
+num2 = input('Digite segundo numero: ')
+
+resultado = num1 + num2
+
+print(resultado)
+
+
+--------------------------
+\\Forma correta
+
+num1 = input('Digite primeiro numero: ')
+num2 = input('Digite segundo numero: ')
+
+resultado = int(num1) + int(num2)
+
+print(resultado)
+
+------------------------
+\\calcula a idade
+
+ano_nasc = input('Ano nasc?\n' )
+ano_atual = input('Ano atual?\n' )
+
+res = int(ano_atual) - int(ano_nasc)
+
+print("Sua idade é: " + str(res) + ' anos')
