@@ -1,0 +1,22 @@
+a = int(input("Digite primeiro num"))
+b = int(input("Digite segundo num"))
+c = int(input("Digite terceito num"))
+d = int(input("Digite quarto num"))
+
+media = (a*1 + b*2 + c*3 + d*4)/10
+
+print('Média ponderada:' + str(media))
+---------------------------------------
+##int para entrada de numeros inteiros
+
+a = int(input("Digite primeiro num"))
+b = int(input("Digite segundo num"))
+c = int(input("Digite terceito num"))
+d = int(input("Digite quarto num"))
+
+##dividido por 10 por conta da soma dos pesos 1+2+3+4
+
+media = (a*1 + b*2 + c*3 + d*4)/10
+
+## str saída string
+print('Média ponderada:' + str(media))
