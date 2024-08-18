@@ -1,0 +1,20 @@
+sal = int(input("Qual salário?\n"))
+reajuste = int(input("reajuste?\n"))
+
+res = sal * reajuste / 100
+resFinal = res + sal
+
+print("Salári final\n" + str(resFinal))
+
+------------------------------------
+# Resultado final inteiro
+
+
+sal = int(input("Qual salário?\n"))
+reajuste = int(input("reajuste?\n"))
+
+res = sal * reajuste / 100
+resFinal = res + sal
+
+print("Salári final\n" + str(int(resFinal)))
+
