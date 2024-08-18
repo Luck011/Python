@@ -1,0 +1,14 @@
+a = 20
+b = 20
+
+print(a is b)
+
+##Saida igual TRUE
+
+--------------------------
+a = 20
+b = 21
+
+print(a is b)
+
+##Saida igual FALSE
