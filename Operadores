@@ -15,3 +15,14 @@ else:
     res = "Falso"
 
 print(res)
+
+--------------------------------
+num1 = int(input("Pri num:\n"))
+num2 = int(input("Seg num:\n"))
+
+if num1 == num2:
+    res = "Os números são iguais"
+else:
+    res = "números diferentes"
+
+print("\n" + res)
