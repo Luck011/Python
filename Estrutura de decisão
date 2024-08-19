@@ -9,3 +9,12 @@ else:
     res = "Os números são iguais"
 
 print(f"{res} é o maior número")
+
+
+-----------------------------------------------
+
+idade = 20
+mediaidade = 30
+
+if idade < mediaidade: print("A idade é menor que a media")
+
