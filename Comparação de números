@@ -1,0 +1,11 @@
+a = int(input("Primeiro número: "))
+b = int(input("Segundo número: "))
+
+if a > b:
+    res = a
+elif a < b:
+    res = b
+else:
+    res = "Os números são iguais"
+
+print(f"{res} é o maior número")
