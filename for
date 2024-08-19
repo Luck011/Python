@@ -87,6 +87,16 @@ for fruta in frutas1:
         frutas2.append(fruta)
         
 print(frutas2)
+---------------------------------
+#index é uma variável usada para rastrear a posição (ou índice) atual dentro da lista frutas1 à medida que o loop for percorre cada item. Em outras palavras, 
+index é o número que indica a posição de cada fruta na lista.
+
+frutas1 =["abacate", "morango", "manga"]
+
+index = 0
+for fruta in frutas1:
+    print(index, fruta)
+    index += 1
 
 
 
